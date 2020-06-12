@@ -1,0 +1,850 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+/* .container-fluid{
+    width: 100%;
+}
+@media screen and (min-width:750px){
+    .container-fluid{
+        width: 750px;
+    }
+}
+@media screen and (max-width:740px){
+    .container-fluid{
+        width: 740px;
+    }
+} */
+@media screen and (min-width:760px){
+    .before-header{
+        width: 1200px;
+        background-color: #000;
+        margin: 0 auto;
+    }
+    .first{
+        position: relative;
+        width: 36px;
+        height: 26px;
+        left: 950px;
+        top: 10px;
+    }
+    .second{
+        position: relative;
+        color: #fff;
+        width: 155px;
+        height: 15px;
+        left: 1000px;
+        top: -15px;
+        font-size: 15px;
+    }
+    .third{
+        width: 110px;
+        height: 15px;
+        position: relative;
+        left: 1100px;
+        top: -30px;
+        color: #fff;
+    }
+    .third a{
+        color: #fff;
+    }
+    .header{
+        width: 1200px;
+        background-color: #e1e1e1;
+        margin: 0 auto;
+        height: 80px;
+    }
+    .header img{
+        width: 180px;
+        height: 55px;
+        position: relative;
+        left: 5px;
+        top: 10px;
+    }
+    .header .f{
+        display: none;
+    }
+    .header .i{
+        position: relative;
+        top: -45px;
+        left: 200px;
+    }
+    .header .i>li {
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .header .i>li>a {
+        color: #000;
+        font-size: 20px;
+    }
+    .header .i>li>a:hover {
+        background-color: #e1e1e1;
+        border-bottom: solid 5px #cb5405;
+        color: #cb5405;
+    }
+    .middle{
+        width: 1200px;
+        margin: 0 auto;
+        background: url(images/banner.jpg) no-repeat;
+    }
+    .p1{
+        position: relative;
+        width: 580px;
+        height: 45px;
+        color: #e0e0e0;
+        font-size: 45px;
+        left: 190px;
+        top: 80px;
+    }
+    .p2{
+        position: relative;
+        color: #e0e0e0;
+        font-size: 19px;
+        top: 140px;
+        left:190px;
+        width: 320px;
+        height: 40px;
+        border-top: 1px solid #57575d;
+    }
+    .p3{
+        position: relative;
+        color: #e0e0e0;
+        font-size: 19px;
+        top: 150px;
+        left:190px ;
+        width: 400px;
+        height: 40px;
+        border-bottom: 1px solid #57575d;
+    }
+    .p4{
+        display: none;
+    }
+    .search{
+        position: relative;
+        width: 590px;
+        height: 59px;
+        border: 4px solid #57575d;
+        left: 305px;
+        top: 200px;
+        border-radius: 4px;
+    }
+    .position{
+        width: 145px;
+        height: 50px;
+        background-color: #d3d3d8;
+        color: #656565;
+        font-size: 16px;
+    }
+    .position img{
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .position span{
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    .search-text{
+        width: 310px;
+        height: 50px;
+        margin-left: 25%;
+        margin-top: -8.6%;
+    }
+    .search-text input{
+        width: 310px;
+        height: 50px;
+        color: #7e7e7e;
+        background-color: #e1e1e1;
+        font-size: 15px;
+    }
+    .search-button{
+        width:128px;
+        height: 50px;
+        margin-left: 78.3%;
+        margin-top: -8.55%;
+        border: none;
+        background-color: #cb5405;
+    }
+    .search-button input{
+        width: 128px;
+        height: 50px;
+        
+        background: url(images/search.png) no-repeat center;
+    }
+    .bigbacks{
+        background-image: url(images/back.png); 
+        height: 2950px;
+    }
+    .bigback{
+        margin: 0 auto;
+        width: 1200px;
+        height: 2950px;
+        background-image: url(images/back.png);
+    }
+    .img1{
+        width: 935px;
+        height: 360px;
+        position: relative;
+        top: 30px;
+        left: 5px;
+    }
+    .banner1{
+        width: 260px;
+        height: 360px;
+        position: relative;
+        background-color: #14316d;
+        left: 940px;
+        top: -330px;
+    }
+    .banner1 img{
+        margin-top: 110px;
+        margin-left: 80px;
+    }
+    .banner1 span{
+        color: #e1e1e1;
+        font-size: 27px;
+        margin-top: 130px;
+        margin-left: 80px;
+    }
+    .banner1 button{
+        background-color: #14316d;
+        width: 180px;
+        height: 50px;
+        border-radius: 6px;
+        margin-left: 18%;
+        margin-top: 20%;
+        border: 1px solid #e1e1e1;
+        color: #e1e1e1;
+        font-size: 25px;
+    }
+    .banner2s{
+        display: none;
+    }
+    #luxian{
+        position: relative;
+        top: -300px;
+    }
+    .hot1{
+        width: 590px;
+        height: 490px;
+        position: relative;
+        background: url(images/hot1.jpg) no-repeat;
+        background-size: cover;
+        top: -280px;
+        left: 1px;
+    }
+    .hot2{
+        width: 590px;
+        height: 520px;
+        background: url(images/hot2.jpg) no-repeat;
+        background-size: cover;
+       left: 1px;
+       top: -270px;
+        position: relative;
+    }
+    .hot3{
+        width: 600px;
+        height: 290px;
+        background: url(images/hot3.jpg) no-repeat;
+        background-size: cover;
+        top: -1291px;
+        left: 593px;
+        position: relative;
+    }
+    .hot4{
+        width: 600px;
+        height: 355px;
+        background: url(images/hot4.jpg) no-repeat;
+        background-size: cover;
+        left: 593px;
+        top: -1285px;
+        position: relative;
+    }
+    .hot5{
+        width: 600px;
+        height: 362px;
+        background: url(images/hot5.jpg) no-repeat;
+        background-size: cover;
+        left: 593px;
+        top: -1277px;
+        position: relative;
+    }
+    div[class *="cover"]{
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    div[class *="hot"]:hover div[class *="cover"] span{
+        color: #e1e1e1;
+        font-size: 19px;
+        margin-left: 10%;
+        display: block;
+        margin-top: 1%;
+    }
+    div[class *="hot"]:hover div[class *="cover"] p{
+        display: inline;
+        color: #e1e1e1;
+        font-size: 24px;
+    }
+    div[class *="hot"]:hover div[class *="cover"]{
+        width: 590px;
+        height: 100px;
+        background-color: rgba(0, 0,0, 0.5);
+        position: absolute;
+        margin-left: 0%;
+        bottom: 0px;
+    }
+    div[class *="hot"]:hover div[class *="covers"]{
+        width: 600px;
+        height: 100px;
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+        margin-left: 0%;
+        bottom: 0px;
+    }
+    .all{
+        display: none;
+    }
+    #shiming{
+        position: relative;
+        top: -1250px;
+    }
+    .mission1{
+        width: 495px;
+        height: 350px;
+        background: url(images/mission1.jpg) no-repeat;
+        background-size: cover;
+        position: relative;
+        left: 1px;
+        top: -1240px;
+    }
+    .service{
+        width: 705px;
+        height: 350px;
+        background-color: #14316d;
+        left: 496px;
+        top: -1610px;
+        position: relative;
+    }
+    .service h2{
+        color:#e1e1e1;
+        padding-top: 8%;
+    }
+    .service p{
+        width: 517px;
+        height: 125px;
+        color: #e1e1e1;
+        font-size: 16px;
+        margin-left: 11%;
+        margin-top: 8%;
+    }
+    .hope{
+        display:none;
+    }
+    .mission2{
+        width: 1200px;
+        height: 475px;
+        background: url(images/mission2.jpg) no-repeat;
+        background-size: cover;
+        left: 1px;
+        top: -1605px;
+        position: relative;
+    }
+    .icon{
+        width: 1200px;
+        height: 400px;
+        background-color: #14316d;
+        position: relative;
+        left: 1px;
+        top: -1600px;
+    }
+    div[class *="icons"]{
+        display: inline-block;
+    }
+    .icons1{
+        width: 290px;
+        height: 280px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .icons2{
+        width: 290px;
+        height: 280px;
+        margin-left: 5%;
+    }
+    .icons3{
+        width: 290px;
+        height: 280px;
+        margin-left: 5%;
+    }
+    .back1{
+        width: 195px;
+        height: 185px;
+        background: url(images/rorate.png) no-repeat,url(images/icon1.png) no-repeat 45% 30%;
+        margin-left: 15%;
+    }
+    .back2{
+        width: 195px;
+        height: 185px;
+        background: url(images/rorate.png) no-repeat,url(images/icon2.png) no-repeat 45% 30%;
+        margin-left: 15%;
+    }
+    .back3{
+        width: 195px;
+        height: 185px;
+        background: url(images/rorate.png) no-repeat,url(images/icon3.png) no-repeat 45% 30%;
+        margin-left: 15%;
+    }
+    .pinzhi{
+        width: 80px;
+        height: 20px;
+        color: #e1e1e1;
+        font-size: 18px;
+        margin-left: 30%;
+        padding-top: 60%;
+    }
+    .paragraph{
+        width: 290px;
+        height: 50px;
+        color: #e1e1e1;
+        margin-left: 4%;
+    }
+    .finally{
+        width: 1200px;
+        height: 370px;
+        margin: 0 auto;
+        background-color: #000;
+        position: relative;
+        left: 1px;
+    }
+    .cooperation{
+        color: #ccc;
+        font-size: 18px;
+        margin-left: 1%;
+        padding-top: 3%;
+    }
+    .cooperation div{
+        display: inline-block;
+    }
+    .partner{
+        margin-left: 1%;
+        margin-top: 0.5%;
+    }
+    .hot-locations{
+        margin-top: 2%;
+        color: #ccc;
+    }
+    .hot-locations span{
+        font-size: 18px;
+        margin-left: 1%;
+    }
+    .hot-locations ul{
+        width: 1105px;
+        height: 70px;
+        float: right;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .hot-locations li{
+        float: left;
+        margin-left: 1.5%;
+        margin-top: 0.5%;
+    }
+    .theme{
+        margin-top: 5%;
+        color: #ccc;
+    }
+    .theme span{
+        font-size: 18px;
+        margin-left: 1%;
+    }
+    .theme ul{
+        width: 1105px;
+        height: 70px;
+        float: right;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .theme li{
+        float: left;
+        margin-left: 1.5%;
+        margin-top: 0.5%;
+    }
+    .friendship-link{
+        margin-top: 5%;
+        color: #ccc;
+    }
+    .friendship-link span{
+        font-size: 18px;
+        margin-left: 1%;
+    }
+    .friendship-link ul{
+        width: 1105px;
+        height: 70px;
+        float: right;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .friendship-link li{
+        float: left;
+        margin-left: 1.5%;
+        margin-top: 0.5%;
+    }
+    .copyright{
+        width: 1200px;
+        height: 155px;
+        margin: 0 auto;
+        background-color: #000;
+        color: #e1e1e1;
+        font-size: 16px;
+    }
+    .copyright span{
+        width: 500px;
+        height: 100px;
+        margin-left: 400px;
+        padding-top: 10px;
+    }
+    .copys{
+        display: none;
+    }
+}
+@media screen and (max-width:750px){
+    .before-head{
+        display: none;
+    }
+    .header img{
+        width: 180px;
+        height: 55px;
+        position: relative;
+        left: 5px;
+        top:10px;
+    }
+    .f {
+        width: 165px;
+        height: 56px;
+        background: #e8420a;
+        color: #fff;
+        position: relative;
+        top: 8px;
+        margin-left: 235px;
+        font-size: 20px;
+    }
+    .g {
+        background-color: #e1e1e1;
+        position: relative;
+        left: 10px;
+        top: 15px;
+    }
+    .h {
+        background-color: black;
+    }
+    .i>li>a {
+        color: #000;
+        font-size: 15px;
+        background-color: #e1e1e1;
+        z-index: 1;
+    }
+    .i {
+        position: relative;
+        top: 10px;
+    }
+    .p1{
+        position: relative;
+        width: 580px;
+        height: 45px;
+        color: #fefefe;
+        font-size: 45px;
+        left: 5px;
+        top: 80px;
+    }
+    .p2,.p3{
+        display: none;
+    }
+    .p4{
+        width: 330px;
+        height: 40px;
+        color: #fefefe;
+        font-size: 25px;
+        position: relative;
+        left: 5px;
+        top: 130px;
+    }
+    .search{
+        position: relative;
+        width: 590px;
+        height: 59px;
+        border: 4px solid #57575d;
+        left: 5px;
+        top: 200px;
+        border-radius: 4px;
+    }
+    .position{
+        width: 145px;
+        height: 50px;
+        background-color: #d3d3d8;
+        color: #656565;
+        font-size: 16px;
+    }
+    .position img{
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .position span{
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    .search-text{
+        width: 310px;
+        height: 50px;
+        margin-left: 25%;
+        margin-top: -8.6%;
+    }
+    .search-text input{
+        width: 310px;
+        height: 50px;
+        color: #7e7e7e;
+        background-color: #e1e1e1;
+        font-size: 15px;
+    }
+    .search-button{
+        width:128px;
+        height: 50px;
+        margin-left: 78.3%;
+        margin-top: -8.55%;
+        border: none;
+        background-color: #cb5405;
+    }
+    .search-button input{
+        width: 128px;
+        height: 50px;
+        
+        background: url(images/search.png) no-repeat center;
+    }
+    .bigbacks{
+        background-color: #f5f5f5;
+    }
+    .img1,.banner1{
+        display: none;
+    }
+    .banner2{
+        height: 200px;
+        position: relative;
+        top: 20px;
+    }
+    .banner2 img{
+        position: relative;
+        top: 46px;
+        left: 42px;
+    }
+    .banner2 span{
+        color: #1c5080;
+        font-size: 30px;
+        position: relative;
+        top: 35px;
+        left: 62px;
+    }
+    .banner2 p{
+        color: #666;
+        font-size: 21px;
+        /* position: relative; */
+        margin-top: 2%;
+        margin-left: 23%;
+    }
+    .banner2 button{
+        background-color: #fff;
+        width: 180px;
+        height: 50px;
+        border-radius: 6px;
+        position: relative;
+        left: 500px;
+        top: -100px;
+        border: 1px solid #666;
+        color: #666;
+        font-size: 25px;
+    }
+    h1,h4{
+        display: none;
+    }
+    div[class $="hot"]{
+        display: none;
+    }
+    div[class $="cover"]{
+        display: none;
+    }
+    div[class $="covers"]{
+        display: none;
+    }
+    .all{
+        height: 1090px;
+        background-color: #fff;
+    }
+    .all #p{
+        width: 135px;
+        height: 35px;
+        position: relative;
+        left: 40px;
+        top: 50px;
+        font-size: 29px;
+        color: #000;
+        padding-left: 12px;
+        border-left: 4px solid red;
+    }
+    .Hot1{
+        width: 640px;
+        height: 399px;
+        position: relative;
+        background: url(images/hot1.jpg) no-repeat;
+        background-size: cover;
+        top: 85px;
+        left: 40px;
+    }
+    .Hot2{
+        width: 640px;
+        height: 399px;
+        background: url(images/hot2.jpg) no-repeat;
+        background-size: cover;
+        left: 40px;
+        top: 100px;
+        position: relative;
+    }
+    div[class *="play"]{
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    div[class *="Hot"]:hover div[class *="play"] span{
+        color: #e1e1e1;
+        font-size: 19px;
+        margin-left: 60%;
+        display: block;
+        margin-top: -10%;
+    }
+    div[class *="Hot"]:hover div[class *="play"] p{
+        color: #fff;
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    div[class *="Hot"]:hover div[class *="play"] #big{
+        color: #fff;
+        font-size: 34px;
+        display: inline;
+    }
+    div[class *="Hot"]:hover div[class *="play"]{
+        width: 640px;
+        height: 100px;
+        background-color: rgba(0, 0,0, 0.5);
+        position: absolute;
+        margin-left: 0%;
+        bottom: 0px;
+    }
+    .all button{
+        width: 226px;
+        height: 55px;
+        color: #666;
+        font-size: 26px;
+        border-radius:10px;
+        border: 1px solid #666;
+        position: relative;
+        top: 150px;
+        left: 250px;
+    }
+    .hope{
+        height: 1650px;
+        background: url(images/back.png);
+    }
+    .hope #p{
+        width: 200px;
+        height: 35px;
+        position: relative;
+        left: 40px;
+        top: 50px;
+        font-size: 29px;
+        color: #000;
+        padding-left: 12px;
+        border-left: 4px solid red;
+    }
+    .hope #span{
+        color: #000;
+        font-size: 23px;
+        position: relative;
+        top: 10px;
+        left: 200px;
+    }
+    .service,.mission1,.mission2,.icon{
+        display: none;
+    }
+    .missions1 img{
+        width: 660px;
+        height: 325px;
+        position: relative;
+        top: 70px;
+        left: 40px;
+    }
+    h3{
+        position: relative;
+        top: 100px;
+    }
+    #pp{
+        width: 668px;
+        height: 130px;
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 110px;
+        left: 40px;
+    }
+    .missions2 img{
+        width: 668px;
+        height: 330px;
+        position: relative;
+        top: 100px;
+        left: 40px;
+    }
+    div[class *="icon"]{
+        width: 668px;
+        height: 160px;
+        position: relative;
+        left: 40px;
+        top: 100px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    div[class *="icon"] img{
+        width: 70px;
+        height: 70px;
+        position: relative;
+        top: 50px;
+        left: 100px;
+    }
+    .ip{
+        position: relative;
+        width: 385px;
+        top: -20px;
+        left: 200px;
+        color: #000;
+        font-size: 20px;
+    }
+    .final{
+        display: none;
+    }
+    .copy{
+        display: none;
+    }
+    .copys{
+        color: #fff;
+        font-size: 23px;
+    }
+    .copys p{
+        position: relative;
+        top:105px;
+    }
+}
